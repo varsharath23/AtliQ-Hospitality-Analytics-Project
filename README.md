@@ -18,9 +18,40 @@ You are a data analyst who has been provided with sample data and a mock-up dash
 - Create a dashboard according to the mock-up provided by stakeholders. 
 - Create relevant insights that are not provided in the metric list/mock-up dashboard.
 
+
 ## Provided Mock-up Dashboard
 <p align="center">
     <img src="https://github.com/Naveen-S6/AtliQ_Hospitality_Analysis_PowerBI/blob/main/Dataset/mock%20up%20dashboard_atliq%20grands.png" width="600">
 </p>
+
+
+## Learnings:
+
+### 1. Data Validation is important before analysis
+- Learned to validate data quality before building any dashboard.
+- Learned to check null values, date inconsistencies, and data-type issues that could have led to incorrect business conclusions.
+- Identified that the ratings_given column contained many null values & decided not to replace them because a missing review is fundamentally different from a poor review. 
+
+### 2. Data Modeling & Relationships Matter More Than Complex DAX
+- Learned how to build and work with a star schema.
+
+### 3. Understanding Dilter Context is the most important DAX skill
+- Learned the practical difference between ALL() and ALLSELECTED()
+- While building Revenue Contribution %, I found that: 
+  - Atliq Exotica Mumbai showed 12.43% in one visual. 
+  - The same property showed 22.45% in another visual. 
+  - Traced the issue to how ALLSELECTED() interacted with a Top N filter. 
+
+### 4. Importance of a dedicated Date Table
+
+
+
+
+
+
+
+
+
+
 
 
