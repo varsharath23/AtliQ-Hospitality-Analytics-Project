@@ -2,7 +2,7 @@
 
 Link to the [Challenge](https://codebasics.io/challenge/codebasics-resume-project-challenge)
 
-Link to [Interactive Dashboard]([https://www.novypro.com/project/-codebasics-september-month-resume-challenge](https://app.powerbi.com/view?r=eyJrIjoiODRmZDZiNzEtZjk1Zi00ZmNkLTk5ODItMGQxZTk5NmMyM2RmIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9))
+Link to [Interactive Dashboard]([[https://www.novypro.com/project/-codebasics-september-month-resume-challenge](https://app.powerbi.com/view?r=eyJrIjoiODRmZDZiNzEtZjk1Zi00ZmNkLTk5ODItMGQxZTk5NmMyM2RmIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)](https://app.powerbi.com/view?r=eyJrIjoiODRmZDZiNzEtZjk1Zi00ZmNkLTk5ODItMGQxZTk5NmMyM2RmIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9))
 
 ## Problem statement
 
@@ -32,10 +32,10 @@ You are a data analyst who has been provided with sample data and a mock-up dash
 - Learned to check null values, date inconsistencies, and data-type issues that could have led to incorrect business conclusions.
 - Identified that the ratings_given column contained many null values & decided not to replace them because a missing review is fundamentally different from a poor review. 
 
-### 2. Data Modeling & Relationships Matter More Than Complex DAX
+### 2. Data Modeling & Relationships matter more than complex DAX
 - Learned how to build and work with a star schema.
 
-### 3. Understanding Dilter Context is the most important DAX skill
+### 3. Understanding Filter Context is the most important DAX skill
 - Learned the practical difference between ALL() and ALLSELECTED()
 - While building Revenue Contribution %, I found that: 
   - Atliq Exotica Mumbai showed 12.43% in one visual. 
@@ -43,6 +43,46 @@ You are a data analyst who has been provided with sample data and a mock-up dash
   - Traced the issue to how ALLSELECTED() interacted with a Top N filter. 
 
 ### 4. Importance of a dedicated Date Table
+- Learned that time-based analysis becomes significantly easier and more reliable with a proper date table. 
+- Used the date table to build: 
+  - Weekly Trends 
+  - Revenue WoW % 
+  - Occupancy WoW % 
+  - Monthly filtering
+ 
+### 5. Hospitality Performance is a Balance of Demand, Pricing and Capacity
+- Developed an understanding of:
+  - Occupancy % 
+  - ADR 
+  - RevPAR 
+  - Revenue 
+  - Realisation % 
+  - Cancellation % 
+  - No-Shows
+- RevPAR is one of the most important top-line metrics in hospitality.
+- Learned that:
+  - High Occupancy alone does not guarantee strong performance. 
+  - High ADR with poor Occupancy may indicate pricing issues. 
+  - RevPAR is valuable because it combines pricing and occupancy performance. 
+  - Revenue Realized is often more meaningful than Revenue Generated because cancellations and no-shows affect actual outcomes.
+ 
+
+## Insights:
+
+- Total revenue is ₹1.71bn (+7.23% WoW), but RevPAR (₹7.35K) and Occupancy (57.87%) have declined WoW by nearly 1%.
+- Average Daily Rate (ADR) remains completely flat at ₹12.70K across all weeks, failing to adapt to shifting market demand.
+- Due to flat pricing, RevPAR directly mirrors regular, cyclical drops in occupancy, bottoming out around 51% during low weeks.
+- The Luxury segment (62%) and Elite rooms (33%) drive the business, with Mumbai generating 39% of total revenue.
+- Properties with poor guest ratings (~3.0) suffer from low occupancy (~53%), whereas highly rated properties (4.2+) maintain ~66% occupancy.
+- Atliq Bay (Hyderabad) maintains a strong 65.87% occupancy but yields the lowest ADR in the portfolio at ₹9.44K.
+- Every single distribution channel and property suffers from an identical, high cancellation rate (24%–26%) and no-show rate (~5%).
+- 42.13% of total inventory goes unutilized daily (1.07K rooms), with 71% of that waste concentrated in high-margin tiers (Elite, Premium, Presidential).
+- Weekend occupancy structurally outperforms weekdays (67% vs 60%), yet weekends account for only 30.87% of captured guest reviews.
+- Week 32 experienced an unprecedented flip where weekday occupancy spiked to 65.3% while weekend occupancy collapsed to 49.2%.
+
+- Atliq Grands is actively losing market share in its core luxury/business sectors due to aggressive competitor moves and a lack of internal business intelligence capabilities.
+
+
 
 
 
