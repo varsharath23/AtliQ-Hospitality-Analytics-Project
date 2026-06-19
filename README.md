@@ -2,7 +2,7 @@
 
 Link to the [Challenge](https://codebasics.io/challenge/codebasics-resume-project-challenge)
 
-Link to [Interactive Dashboard](https://www.novypro.com/project/-codebasics-september-month-resume-challenge](https://app.powerbi.com/view?r=eyJrIjoiODRmZDZiNzEtZjk1Zi00ZmNkLTk5ODItMGQxZTk5NmMyM2RmIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+Link to [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiODRmZDZiNzEtZjk1Zi00ZmNkLTk5ODItMGQxZTk5NmMyM2RmIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
 ## Problem statement
 
