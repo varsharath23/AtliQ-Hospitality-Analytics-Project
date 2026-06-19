@@ -1,5 +1,7 @@
 # AtliQ Hospitality Analytics Dashboard - PowerBI
 
+- Domain: Hospitality    - Function: Revenue
+
 Link to the [Challenge](https://codebasics.io/challenges/codebasics-resume-project-challenge/4)
 
 Link to [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiODRmZDZiNzEtZjk1Zi00ZmNkLTk5ODItMGQxZTk5NmMyM2RmIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
